@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.line {
+    margin: 0 5px;
+}
+
+.link {
+    margin: 8px 0 8px 10px;
+}
+
+a {
+    border-right: 2px solid black;
+    padding-right: 8px;
+    color: darkgray;
+    margin: 0;
+}
+
+a:hover {
+    color: palevioletred;
+    text-decoration: none;
+}
+
+a:active {
+    color: red;
+}
+
+.name {
+    margin: 25px 0;
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.job {
+    margin: 0 0 15px 20px;
+}
+
+.img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 0 0 10px 20px;
+}
+
+.img img {
+    width: 100%;
+}
+
+.discript {
+    font-size: 18px;
+    margin: 20px 0 10px 20px;
+}
+
+.info {
+    margin: 10px 0 10px 15px;
+}
+
+.info>p,
+.info>h3 {
+    padding: 5px;
+}
+
+.skill {
+    margin: 10px 0 0 20px;
+}
+
+.skill li {
+    margin-left: 20px;
+    padding: 5px;
+}
